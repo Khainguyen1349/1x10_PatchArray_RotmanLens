@@ -14,4 +14,6 @@ By feeding different ports (3-4-5-6-7), we can have these scanning beams
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Patterns.png)
 
+3D pattern
+
 ![alt text](hhttps://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/AF0deg.png)
