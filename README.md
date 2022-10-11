@@ -4,5 +4,14 @@ Objective: “Design a 1D patch phased array of 10 elements with corporate feedi
 
 Detail report can be found in https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Phased%20array%20patch%20antenna%20%4010GHz.pdf
 
+The analytical analysis is done in https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Main.m
+
 The final design is as following
+
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/FinalStructure.png)
+
+By feeding different ports (3-4-5-6-7), we can have these scanning beams
+
+![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Patterns.png)
+
+![alt text](hhttps://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/AF0deg.png)
