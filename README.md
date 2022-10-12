@@ -10,10 +10,14 @@ The final design is as following
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/FinalStructure.png)
 
-By feeding different ports (3-4-5-6-7), we can have these scanning beams
+By feeding different ports, we can have these scanning beams covering 60 degrees
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Patterns.png)
 
 3D pattern
 
-![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/AF0deg.png)
+![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/ArrayPatchRotman10GHz.gif)
+
+The design have a better impedance matching than -10dB and total loss lower than 5.5dB.
+
+![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Matching.png)
