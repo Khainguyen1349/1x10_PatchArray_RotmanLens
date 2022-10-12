@@ -25,3 +25,15 @@ By feeding different ports, we can have these scanning beams covering 60 degrees
 The design have a better impedance matching than -10dB and total loss lower than 5.5dB.
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Matching.png)
+
+References
+
+1. Eurocircuits site: https://www.eurocircuits.com/ 
+
+2. Balanis, “Antenna Theory: Analysis and Design,” 4th edition, MATLAB code: https://fr.mathworks.com/academia/books/antenna-theory-balanis.html 
+
+3. Rotman lens design using MATLAB: https://fr.mathworks.com/matlabcentral/fileexchange/50490-rotman-lens-design-with-hfss-link?s_tid=mwa_osa_a 
+ 
+4. Patch dimension calculator: https://www.pasternack.com/t-calculator-microstrip-ant.aspx 
+
+5. Microstrip line calculator: https://www.pasternack.com/t-calculator-microstrip.aspx 
