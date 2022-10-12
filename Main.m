@@ -70,27 +70,26 @@ legend('E-plane','H-plane')
 
 
 %% Rotman lens design
-Erotman_Hplane_port5_CST = ReadCST('Hpl-Micr_rotmanPort5_CST.csv');
-Erotman_Hplane_port4_CST = ReadCST('Hpl-Micr_rotmanPort4_CST.csv');
-Erotman_Hplane_port3_CST = ReadCST('Hpl-Micr_rotmanPort3_CST.csv');
-% Erotman_Hplane_port2_CST = ReadCST('Hpl-Micr_rotman30deg_CST.csv');
-% Erotman_Hplane_port1_CST = ReadCST('Hpl-Micr_rotman30deg_CST.csv');
+Erotman_Hplane_port5_CST = ReadCST('RotmanPort5_CST.csv');
+Erotman_Hplane_port4_CST = ReadCST('RotmanPort4_CST.csv');
+Erotman_Hplane_port3_CST = ReadCST('RotmanPort3_CST.csv');
+Erotman_Hplane_port2_CST = ReadCST('RotmanPort2_CST.csv');
+Erotman_Hplane_port1_CST = ReadCST('RotmanPort1_CST.csv');
 
 figure;
-% polarplot(theta,max(-10,cat(1,Erotman_Hplane_port1_CST.AbsE,Erotman_Hplane_port1_CST.AbsE(1)))-max(Erotman_Hplane_port1_CST.AbsE),'m');
-% hold on
-% polarplot(theta,max(-10,cat(1,Erotman_Hplane_port2_CST.AbsE,Erotman_Hplane_port2_CST.AbsE(1)))-max(Erotman_Hplane_port2_CST.AbsE),'k');
-polarplot(theta,max(-10,cat(1,Erotman_Hplane_port3_CST.AbsE,Erotman_Hplane_port3_CST.AbsE(1)))-max(Erotman_Hplane_port3_CST.AbsE),'m');
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port1_CST.AbsE,Erotman_Hplane_port1_CST.AbsE(1)))-max(Erotman_Hplane_port1_CST.AbsE),'m');
 hold on
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port2_CST.AbsE,Erotman_Hplane_port2_CST.AbsE(1)))-max(Erotman_Hplane_port2_CST.AbsE),'k');
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port3_CST.AbsE,Erotman_Hplane_port3_CST.AbsE(1)))-max(Erotman_Hplane_port3_CST.AbsE),'g');
 polarplot(theta,max(-10,cat(1,Erotman_Hplane_port4_CST.AbsE,Erotman_Hplane_port4_CST.AbsE(1)))-max(Erotman_Hplane_port4_CST.AbsE),'r');
 polarplot(theta,max(-10,cat(1,Erotman_Hplane_port5_CST.AbsE,Erotman_Hplane_port5_CST.AbsE(1)))-max(Erotman_Hplane_port5_CST.AbsE),'b');
 % By symetry, reproduce the orther port patterns
 polarplot(theta,max(-10,cat(1,Erotman_Hplane_port4_CST.AbsE(1),Erotman_Hplane_port4_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port4_CST.AbsE),'--r');
-polarplot(theta,max(-10,cat(1,Erotman_Hplane_port3_CST.AbsE(1),Erotman_Hplane_port3_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port3_CST.AbsE),'--m');
-% polarplot(theta,max(-10,cat(1,Erotman_Hplane_port2_CST.AbsE(1),Erotman_Hplane_port2_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port2_CST.AbsE),'--k');
-% polarplot(theta,max(-10,cat(1,Erotman_Hplane_port1_CST.AbsE(1),Erotman_Hplane_port1_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port1_CST.AbsE),'--m');
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port3_CST.AbsE(1),Erotman_Hplane_port3_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port3_CST.AbsE),'--g');
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port2_CST.AbsE(1),Erotman_Hplane_port2_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port2_CST.AbsE),'--k');
+polarplot(theta,max(-10,cat(1,Erotman_Hplane_port1_CST.AbsE(1),Erotman_Hplane_port1_CST.AbsE(360:-1:1)))-max(Erotman_Hplane_port1_CST.AbsE),'--m');
 hold off
 rlim([-25 0])
 title('Patterns of phased array with Rotman lens feeding from CST')
-legend('Port 3','Port 4','Port 5', 'Port 6','Port 7')
+legend('Port 1','Port 2','Port 3','Port 4','Port 5', 'Port 6','Port 7','Port 8','Port 9')
 
