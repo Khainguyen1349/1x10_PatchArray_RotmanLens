@@ -10,6 +10,10 @@ The final design is as following
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/FinalStructure.png)
 
+By principle, each port of the Rotman lens excites different phase-shift to the antenne 
+
+![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/ROTMAN_PATCH_10GHz_01.gif)
+
 By feeding different ports, we can have these scanning beams covering 60 degrees
 
 ![alt text](https://github.com/Khainguyen1349/1x10_PatchArray_RotmanLens/blob/main/Figures/Rotman/Patterns.png)
